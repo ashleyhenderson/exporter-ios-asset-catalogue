@@ -8,6 +8,8 @@
     "source_dir": "src",
     "version": "1.0",
     "usesBrands": true,
+    "usesThemes": true,
+    "usesLocale": false,
     "config": {
         "sources": "sources.json",
         "output": "output.json",

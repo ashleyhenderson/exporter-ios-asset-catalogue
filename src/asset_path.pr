@@ -1,10 +1,5 @@
-{[ let extension = asset.format /]}
-
-{* Generate name as [originalName][extension] *}
-{[ let name = (asset.originalName +  "." + asset.format) /]}
-
 {* Generate path from segments. Path remains the same *}
 {[ let path = (asset.group.path.append(asset.group.name).append((asset.originalName + ".colorset")).join("/")) /]}
 
 {* Generate asset path *}
-Assets.xcassets/{{ path + "/" }}{{ name }}
+Assets.xcassets/{{ path + "/" }}
