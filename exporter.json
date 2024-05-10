@@ -1,12 +1,12 @@
 {
-    "id": "io.supernova.ios-asset-catalogue-exporter",
-    "name": "iOS Asset Catalogue",
-    "description": "iOS Asset Catalogue Exporter",
-    "author": "Jiri Trecak",
-    "organization": "Supernova",
-    "homepage": "https://supernova.io",
+    "id": "moneybox.ios-colour-asset-exporter",
+    "name": "iOS Colour Asset",
+    "description": "iOS Colour Asset Exporter",
+    "author": "Ashley Henderson",
+    "organization": "Moneybox",
+    "homepage": "https://www.moneyboxapp.com/",
     "source_dir": "src",
-    "version": "1.1",
+    "version": "1.0",
     "usesBrands": true,
     "config": {
         "sources": "sources.json",
@@ -19,7 +19,7 @@
     },
     "tags": [
         "Assets",
-        "PDF",
+        "Asset Catalog",
         "iOS"
     ]
 }
